@@ -19,3 +19,4 @@ for line in sys.stdin:
     words = re.split(r"[.!?,:;\"()<>\[\]#$=\-\/\s]", body)
     for word in words:
 	print "{0}\t{1}".format(word, node_id)
+
